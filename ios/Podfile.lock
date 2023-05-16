@@ -1,0 +1,291 @@
+PODS:
+  - "app_settings (3.0.0+1)":
+    - Flutter
+  - connectivity_plus (0.0.1):
+    - Flutter
+    - ReachabilitySwift
+  - Firebase/Analytics (10.1.0):
+    - Firebase/Core
+  - Firebase/Core (10.1.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (~> 10.1.0)
+  - Firebase/CoreOnly (10.1.0):
+    - FirebaseCore (= 10.1.0)
+  - Firebase/Messaging (10.1.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 10.1.0)
+  - firebase_analytics (10.0.5):
+    - Firebase/Analytics (= 10.1.0)
+    - firebase_core
+    - Flutter
+  - firebase_core (2.2.0):
+    - Firebase/CoreOnly (= 10.1.0)
+    - Flutter
+  - firebase_messaging (14.0.4):
+    - Firebase/Messaging (= 10.1.0)
+    - firebase_core
+    - Flutter
+  - FirebaseAnalytics (10.1.0):
+    - FirebaseAnalytics/AdIdSupport (= 10.1.0)
+    - FirebaseCore (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/MethodSwizzler (~> 7.8)
+    - GoogleUtilities/Network (~> 7.8)
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - FirebaseAnalytics/AdIdSupport (10.1.0):
+    - FirebaseCore (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - GoogleAppMeasurement (= 10.1.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/MethodSwizzler (~> 7.8)
+    - GoogleUtilities/Network (~> 7.8)
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - FirebaseCore (10.1.0):
+    - FirebaseCoreInternal (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GoogleUtilities/Logger (~> 7.8)
+  - FirebaseCoreInternal (10.3.0):
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+  - FirebaseInstallations (10.3.0):
+    - FirebaseCore (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GoogleUtilities/UserDefaults (~> 7.8)
+    - PromisesObjC (~> 2.1)
+  - FirebaseMessaging (10.1.0):
+    - FirebaseCore (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - GoogleDataTransport (~> 9.2)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GoogleUtilities/Reachability (~> 7.8)
+    - GoogleUtilities/UserDefaults (~> 7.8)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - Flutter (1.0.0)
+  - flutter_inappwebview (0.0.1):
+    - Flutter
+    - flutter_inappwebview/Core (= 0.0.1)
+    - OrderedSet (~> 5.0)
+  - flutter_inappwebview/Core (0.0.1):
+    - Flutter
+    - OrderedSet (~> 5.0)
+  - flutter_local_notifications (0.0.1):
+    - Flutter
+  - fluttertoast (0.0.2):
+    - Flutter
+    - Toast
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - geocoding (1.0.5):
+    - Flutter
+  - geolocator_apple (1.2.0):
+    - Flutter
+  - google_maps_flutter_ios (0.0.1):
+    - Flutter
+    - GoogleMaps
+  - GoogleAppMeasurement (10.1.0):
+    - GoogleAppMeasurement/AdIdSupport (= 10.1.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/MethodSwizzler (~> 7.8)
+    - GoogleUtilities/Network (~> 7.8)
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleAppMeasurement/AdIdSupport (10.1.0):
+    - GoogleAppMeasurement/WithoutAdIdSupport (= 10.1.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/MethodSwizzler (~> 7.8)
+    - GoogleUtilities/Network (~> 7.8)
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleAppMeasurement/WithoutAdIdSupport (10.1.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/MethodSwizzler (~> 7.8)
+    - GoogleUtilities/Network (~> 7.8)
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleDataTransport (9.2.0):
+    - GoogleUtilities/Environment (~> 7.7)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleMaps (5.2.0):
+    - GoogleMaps/Maps (= 5.2.0)
+  - GoogleMaps/Base (5.2.0)
+  - GoogleMaps/Maps (5.2.0):
+    - GoogleMaps/Base
+  - GoogleUtilities/AppDelegateSwizzler (7.10.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.10.0):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.10.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (7.10.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (7.10.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.10.0)"
+  - GoogleUtilities/Reachability (7.10.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (7.10.0):
+    - GoogleUtilities/Logger
+  - location (0.0.1):
+    - Flutter
+  - nanopb (2.30909.0):
+    - nanopb/decode (= 2.30909.0)
+    - nanopb/encode (= 2.30909.0)
+  - nanopb/decode (2.30909.0)
+  - nanopb/encode (2.30909.0)
+  - OrderedSet (5.0.0)
+  - package_info_plus (0.4.5):
+    - Flutter
+  - path_provider_ios (0.0.1):
+    - Flutter
+  - PromisesObjC (2.1.1)
+  - razorpay-pod (1.3.0)
+  - razorpay_flutter (1.1.10):
+    - Flutter
+    - razorpay-pod
+  - ReachabilitySwift (5.0.0)
+  - shared_preferences_ios (0.0.1):
+    - Flutter
+  - sqflite (0.0.2):
+    - Flutter
+    - FMDB (>= 2.7.5)
+  - syncfusion_flutter_pdfviewer (0.0.1):
+    - Flutter
+  - Toast (4.0.0)
+  - url_launcher_ios (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - app_settings (from `.symlinks/plugins/app_settings/ios`)
+  - connectivity_plus (from `.symlinks/plugins/connectivity_plus/ios`)
+  - firebase_analytics (from `.symlinks/plugins/firebase_analytics/ios`)
+  - firebase_core (from `.symlinks/plugins/firebase_core/ios`)
+  - firebase_messaging (from `.symlinks/plugins/firebase_messaging/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_inappwebview (from `.symlinks/plugins/flutter_inappwebview/ios`)
+  - flutter_local_notifications (from `.symlinks/plugins/flutter_local_notifications/ios`)
+  - fluttertoast (from `.symlinks/plugins/fluttertoast/ios`)
+  - geocoding (from `.symlinks/plugins/geocoding/ios`)
+  - geolocator_apple (from `.symlinks/plugins/geolocator_apple/ios`)
+  - google_maps_flutter_ios (from `.symlinks/plugins/google_maps_flutter_ios/ios`)
+  - location (from `.symlinks/plugins/location/ios`)
+  - package_info_plus (from `.symlinks/plugins/package_info_plus/ios`)
+  - path_provider_ios (from `.symlinks/plugins/path_provider_ios/ios`)
+  - razorpay_flutter (from `.symlinks/plugins/razorpay_flutter/ios`)
+  - shared_preferences_ios (from `.symlinks/plugins/shared_preferences_ios/ios`)
+  - sqflite (from `.symlinks/plugins/sqflite/ios`)
+  - syncfusion_flutter_pdfviewer (from `.symlinks/plugins/syncfusion_flutter_pdfviewer/ios`)
+  - url_launcher_ios (from `.symlinks/plugins/url_launcher_ios/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseCoreInternal
+    - FirebaseInstallations
+    - FirebaseMessaging
+    - FMDB
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleMaps
+    - GoogleUtilities
+    - nanopb
+    - OrderedSet
+    - PromisesObjC
+    - razorpay-pod
+    - ReachabilitySwift
+    - Toast
+
+EXTERNAL SOURCES:
+  app_settings:
+    :path: ".symlinks/plugins/app_settings/ios"
+  connectivity_plus:
+    :path: ".symlinks/plugins/connectivity_plus/ios"
+  firebase_analytics:
+    :path: ".symlinks/plugins/firebase_analytics/ios"
+  firebase_core:
+    :path: ".symlinks/plugins/firebase_core/ios"
+  firebase_messaging:
+    :path: ".symlinks/plugins/firebase_messaging/ios"
+  Flutter:
+    :path: Flutter
+  flutter_inappwebview:
+    :path: ".symlinks/plugins/flutter_inappwebview/ios"
+  flutter_local_notifications:
+    :path: ".symlinks/plugins/flutter_local_notifications/ios"
+  fluttertoast:
+    :path: ".symlinks/plugins/fluttertoast/ios"
+  geocoding:
+    :path: ".symlinks/plugins/geocoding/ios"
+  geolocator_apple:
+    :path: ".symlinks/plugins/geolocator_apple/ios"
+  google_maps_flutter_ios:
+    :path: ".symlinks/plugins/google_maps_flutter_ios/ios"
+  location:
+    :path: ".symlinks/plugins/location/ios"
+  package_info_plus:
+    :path: ".symlinks/plugins/package_info_plus/ios"
+  path_provider_ios:
+    :path: ".symlinks/plugins/path_provider_ios/ios"
+  razorpay_flutter:
+    :path: ".symlinks/plugins/razorpay_flutter/ios"
+  shared_preferences_ios:
+    :path: ".symlinks/plugins/shared_preferences_ios/ios"
+  sqflite:
+    :path: ".symlinks/plugins/sqflite/ios"
+  syncfusion_flutter_pdfviewer:
+    :path: ".symlinks/plugins/syncfusion_flutter_pdfviewer/ios"
+  url_launcher_ios:
+    :path: ".symlinks/plugins/url_launcher_ios/ios"
+
+SPEC CHECKSUMS:
+  app_settings: d103828c9f5d515c4df9ee754dabd443f7cedcf3
+  connectivity_plus: 413a8857dd5d9f1c399a39130850d02fe0feaf7e
+  Firebase: 444b35a9c568a516666213c2f6cccd10cb12559f
+  firebase_analytics: 83faeaf890b32aec4537dd4ae714001b4fbc8619
+  firebase_core: d2242c6f318db1d0dcecfbfa491e943337b0d755
+  firebase_messaging: 9b704e183cbcc36120b4744eb966c1947baf47a6
+  FirebaseAnalytics: 24cb27b52b2e11ad5013528195b4ca0755dec960
+  FirebaseCore: 55e7ae35991ccca4db03ff8d8df6ed5f17a3e4c7
+  FirebaseCoreInternal: 29b76f784d607df8b2a1259d73c3f04f1210137b
+  FirebaseInstallations: e2f26126089dcf41e215f7b8925af8d953c7d602
+  FirebaseMessaging: 4487bbff9b9b927ba1dd3ea40d1ceb58e4ee3cb5
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  flutter_inappwebview: bfd58618f49dc62f2676de690fc6dcda1d6c3721
+  flutter_local_notifications: 0c0b1ae97e741e1521e4c1629a459d04b9aec743
+  fluttertoast: 74526702fea2c060ea55dde75895b7e1bde1c86b
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  geocoding: 32cfcdb16d38d907caaba65e2e42ad10d38bee58
+  geolocator_apple: cc556e6844d508c95df1e87e3ea6fa4e58c50401
+  google_maps_flutter_ios: 66201f392bf62d500f07670a30488a247b9bb5b9
+  GoogleAppMeasurement: e490e248af3da95afe8fa8e7baac232dc8d020b7
+  GoogleDataTransport: 1c8145da7117bd68bbbed00cf304edb6a24de00f
+  GoogleMaps: 025272d5876d3b32604e5c080dc25eaf68764693
+  GoogleUtilities: bad72cb363809015b1f7f19beb1f1cd23c589f95
+  location: 3a2eed4dd2fab25e7b7baf2a9efefe82b512d740
+  nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
+  OrderedSet: aaeb196f7fef5a9edf55d89760da9176ad40b93c
+  package_info_plus: 6c92f08e1f853dc01228d6f553146438dafcd14e
+  path_provider_ios: 14f3d2fd28c4fdb42f44e0f751d12861c43cee02
+  PromisesObjC: ab77feca74fa2823e7af4249b8326368e61014cb
+  razorpay-pod: ebc78907f756ace307e3fa4270ff684ebb9e291b
+  razorpay_flutter: 84b3bfd206ae9c9c2a9ba585524a1b3d8102b6c1
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  shared_preferences_ios: 548a61f8053b9b8a49ac19c1ffbc8b92c50d68ad
+  sqflite: 6d358c025f5b867b29ed92fc697fd34924e11904
+  syncfusion_flutter_pdfviewer: bb9998884b864cfedf72628df3503bdf57e397c0
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  url_launcher_ios: 839c58cdb4279282219f5e248c3321761ff3c4de
+
+PODFILE CHECKSUM: 30517025a2fecca2d72dac25f08abb5b9a8f1a56
+
+COCOAPODS: 1.11.3

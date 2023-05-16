@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1062357424869",
+    "project_id": "anajbazaar-66ef7",
+    "storage_bucket": "anajbazaar-66ef7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062357424869:android:fd06a90a482b4ea886d20c",
+        "android_client_info": {
+          "package_name": "com.ajcorp.anajbazaar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1062357424869-hkmegi3ts489i03s9sov5n9ah2bll3r7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBowfY3y876RPUfM5TRbYXsX4blxgf_q5k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1062357424869-hkmegi3ts489i03s9sov5n9ah2bll3r7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
